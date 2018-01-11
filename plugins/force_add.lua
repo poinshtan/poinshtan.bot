@@ -1,4 +1,4 @@
--- ##### begin force_add.lua by @ToOfan ####
+-- ##### begin force_add.lua by @poinshtan88 ####
 
 local function BeyondTeam(msg)
 	if not is_mod(msg) then
@@ -194,8 +194,3 @@ return {
   run = ToOfan,
   pre_process = BeyondTeam
 }
-
--- End force_add.lua
--- Coded by @ToOfan
--- Channel @BeyondTeam
--- Fuck You, Ski :)
