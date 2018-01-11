@@ -1,4 +1,4 @@
---Begin clean deleted by @SoLiD
+--Begin clean deleted by @poinshtan88
 local function getChatId(chat_id)
   local chat = {}
   local chat_id = tostring(chat_id)
@@ -35,5 +35,5 @@ patterns ={
  }, 
   run = BeyondTeam 
 }
---By @SoLiD
---#BeyondTeam
+--By @poinshtan
+--#Poinshtan Bot
