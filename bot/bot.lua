@@ -83,6 +83,18 @@ function create_config( )
 	config = {
     enabled_plugins = {
 		"banhammer",
+		"aparat",
+		"cda",
+		"cleanbots",
+		"core",
+		"date(2)",
+		"delall",
+		"FontFarsi",
+		"force_add",
+		"mute-time",
+		"Report",
+		"video-note",
+		"write",
 		"groupmanager",
 		"msg-checks",
 		"plugins",
@@ -94,7 +106,7 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Reborn v6.0
+    info_text = [[》poinshtan Bot
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
