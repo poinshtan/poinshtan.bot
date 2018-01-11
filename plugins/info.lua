@@ -238,4 +238,4 @@ return {
 },
 	run = run
 }
---This Is info.lua for BDReborn Source :)
+--poinshtan bot <3
