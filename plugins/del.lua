@@ -87,5 +87,5 @@ patterns ={
 "^(پاکسازی پیام های من)$",
 "^(حذف)$"
  }, 
-  run = MrTarfand
+  run = #poinshtan
 }
