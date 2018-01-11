@@ -11,7 +11,7 @@
   return chat
 end
 local function amir(msg, matches) 
- if matches[1] == 'پاک کردن' and is_owner(msg) then
+ if matches[1] == 'پاکسازی' and is_owner(msg) then
   local function pro(extra,result,success)
              local amir = result.members_        
                for i=0 , #amir do
@@ -31,10 +31,11 @@ end
 
 return {  
 patterns ={  
-"^پاک کردن$"
+"^پاکسازی$"
  }, 
  patterns_fa ={ }, 
   run = amir
 }
 --By @mohammad_lua
+--edited by @poinshtan88
 
