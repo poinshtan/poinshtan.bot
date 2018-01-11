@@ -1,4 +1,4 @@
---Start By @Tele_Sudo or @ThatsEnd
+--Start By #Poinshtan Bot
 
 local function run(msg, matches)
 if matches[1] == 'پاک ربات' then
@@ -21,6 +21,5 @@ patterns = {
  },
   run = run
 } 
- --End By @Tele_Sudo or @ThatsEnd
- -- Channel @LuaError
+ --End By #Poinshtan Bot
  --Please Not Clean This Text 
