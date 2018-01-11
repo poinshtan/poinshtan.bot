@@ -1,4 +1,4 @@
-﻿--Begin Utils.lua By #BeyondTeam :)
+﻿--Begin Utils.lua By #poinshtan team
  local clock = os.clock
 function sleep(time)  -- seconds
   local t0 = clock()
@@ -136,7 +136,7 @@ end
   if not lang then
     return tdcli.sendMessage(msg.to.id, msg.id, 0, "_All group admins has been promoted and group creator is now group owner_", 0, "md")
 else
-    return tdcli.sendMessage(msg.to.id, msg.id, 0, "_تمام ادمین های گروه به مقام مدیر منتصب شدند و سازنده گروه به مقام مالک گروه منتصب شد_", 0, "md")
+    return tdcli.sendMessage(msg.to.id, msg.id, 0, "_به تمام ادمین های گروه و مالک اجازهء فرمان دادن داده شد _", 0, "md")
      end
  end
 tdcli.getChannelMembers(msg.to.id, 0, 'Administrators', 200, config_cb, {chat_id=msg.to.id})
@@ -727,9 +727,9 @@ local lang = redis:get(hash)
     local i = 1
   if not data[tostring(chat_id)] then
   if not lang then
-    return '_Group is not added_'
+    return '_error_'
 else
-    return 'گروه به لیست گروه های مدیریتی ربات اضافه نشده است'
+    return 'گروه اضافه نشده'
    end
   end
   -- determine if table is empty
@@ -759,9 +759,9 @@ local lang = redis:get(hash)
     local i = 1
   if not data[tostring(chat_id)] then
   if not lang then
-    return '_Group is not added_'
+    return '_error_'
 else
-    return 'گروه به لیست گروه های مدیریتی ربات اضافه نشده است'
+    return 'گروه اضافه نشده'
    end
   end
   -- determine if table is empty
@@ -791,9 +791,9 @@ local lang = redis:get(hash)
     local i = 1
   if not data[tostring(chat_id)] then
   if not lang then
-    return '_Group is not added_'
+    return '_error_'
 else
-    return 'گروه به لیست گروه های مدیریتی ربات اضافه نشده است'
+    return 'گروه ربات اضافه نشده'
    end
   end
   if not data[tostring(chat_id)]['whitelist'] then
@@ -858,9 +858,9 @@ local lang = redis:get(hash)
     end
   if not data[tostring(msg.chat_id_)] then
   if not lang then
-    return '_Group is not added_'
+    return '_error_'
 else
-    return 'گروه به لیست گروه های مدیریتی ربات اضافه نشده است'
+    return 'گروه اضافه نشده'
    end
   end
   -- determine if table is empty
